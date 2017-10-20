@@ -42,7 +42,7 @@ public class zqlFirstTest<T>{
         firstFactory1.setTt(new Integer[]{3,3,3});
         zqlFirstAssistantContext context2 = zqlFirstAssistantContext.getInstance();
         zqlFirstBothMtrthAssistantFactory firstFactory2 = (zqlFirstBothMtrthAssistantFactory)context2.<Integer>getZqlFirstFactory("2");
-        firstFactory2.setTt(new Integer[]{3,3,4});
+        firstFactory2.setTt(new Integer[]{3,3,8});
         System.out.print("firstFactory1HashCode"+firstFactory1.hashCode()+"\n");
         System.out.print("firstFactory2HashCode"+firstFactory2.hashCode()+"\n");
         if(firstFactory1.equals(new zqlFirstBothMtrthAssistantFactory<Integer>())){
