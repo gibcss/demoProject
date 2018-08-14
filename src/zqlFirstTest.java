@@ -25,7 +25,7 @@ public class zqlFirstTest<T>{
         HashMap<String,String> mapTemp = new HashMap<String,String>();
         ArrayList<String> lstTemp = new ArrayList<String>();
 
-        // Intellij Idea GitHub commit test01
+        // Intellij Idea GitHub commit test02
         zqlFirstTest<Integer> firstObj = new zqlFirstTest<Integer>(new Integer[]{11,22,33});
         Integer[] init = firstObj.getA();
         System.out.print("init start\n");
